@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kupeco-kontakt</title>
+     <meta name="description" content="pilz und waldfrüchte">
+    <meta name="keywords" content="Kupeco">
+    <link rel="shortcut icon" type="image/x-icon" href= "img/faviconLis16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet"> 
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="qualit%C3%A4tsanspruch.html">Qualitätsanspruch</a>
+                <a href="unsere_produkte.html">Unsere Produkte</a>
+                <a href="#", style="border-bottom: 2px solid #000">Kontakt</a>
+                <a href="unsere_produktfotos.html">Galerie</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+    <div class="ndra-container">
+        <div class="address-container">
+            <div class="address-header">
+                <h2>Privatunternehmen Kupeco</h2> 
+                <h2>Anschrift:</h2>  
+                <h3> 225143, Brester gebilt</h3> 
+                <h3> Pruyhanz Region, Kuplin</h3>
+                <h3>Weißrussland</h3>
+                <h3>Tel: +375 1632 23705</h3>
+                <h3>DE +375(44)-786-51-35</h3>
+                <h3>Fax: +375 1632 90154</h3>
+                <h3> Email: <a href="mailto:ecolesproduct@bk.ru">ecolesproduct@bk.ru</a></h3>   
+            </div>
+            <div class="address-location">
+                    <div id="map"></div>
+                </div>
+        </div>     
+    </div>  
+    <footer>    
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="qualitätsanspruch.html">Qualitätsanspruch</a>
+                <a href="unsere_produkte.html">Unsere Produkte</a>
+                <a href="#", style="color: #A9A9A9">Kontakt</a>
+                <a href="unsere_produktfotos.html">Galerie</a>
+        </nav>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="social">
+            <a href="mailto:ecolesproduct@bk.ru"><img src="img/em.png" alt=""></a>
+        </div>
+        <p>pilz und waldfrüchte. Kupeco</p>
+    </footer>
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+ <script>
+function initMap() {
+  var uluru = {lat: 52.5716629, lng: 24.513823};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12.25, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer    src="https://maps.googleapis.com/maps/api/js?AIzaSyDDhYbfoWRfUI_kq2_rAy4MD8H4OhocCaE&callback=initMap">
+    </script>

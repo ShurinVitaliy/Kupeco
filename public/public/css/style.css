@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+     font-family: 'PT Sans Caption', sans-serif;
+}
+.logo{
+    background: #2F4F4F;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: auto;
+    width: 800px;
+    height: 50px;
+}
+.topnav{
+    background-color: #fff;
+    font-size: 11px;
+    margin-top: 4px;
+    text-align: center;
+}
+.topnav a{
+    color: #000;
+    text-align-last: center;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 2.1em;
+    font-family: 'Avantgarde', serif;
+}
+.topnav a:hover{
+    border-bottom: 2px solid #000;
+    color: #696969;
+}
+//.topnav .icon{
+    display: none;
+}
+.mw-100{
+    max-width: 100%;
+}
+.advantages_container{
+    display: flex;
+    justify-content: center;
+}
+.advantages{
+    padding-top: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.advantages_item{
+    width: 50%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #2F4F4F;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: white;
+    font-size: 1.4em;
+    margin-left: 10px; 
+}
+footer a:hover{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+footer p{
+    color: white;
+    font-stretch: ultra-expanded
+    font-family: 'Helvetica', serif;
+}
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background:#696969;
+    border-radius: 50%;
+}
+.address-header{
+    text-align: center;
+    background-image: url("../img/basement.jpg");
+    font-family: 'Helvetica', serif;
+    font-size: 1em;/*размер шрифта контактных данных*/
+    color:#AFEEEE;
+    padding-bottom: 30px;
+    padding-top: 30px;  
+    background-attachment: fixed;
+}
+.address-container{
+    background-color: #F5F5F5;
+}
+.address-header a{
+    color: bisque;
+}
+.address-container a:hover{
+    color:#8FBC8F;
+    border-bottom: 2px solid black;
+    font-size: 1.1em;
+        
+}
+.advantages_item img:hover{
+    border-radius: 5%;
+    
+}
+.advantages_item p{
+    font-family: 'Helvetica', serif;
+    font-size: 1.1em;
+    padding-bottom: 2em;
+}
+h2{
+    font-family: 'Helvetica', serif;
+    font-size: 1.5em;
+}
+.product{
+    background-color:#F0F8FF;
+}
+.text-content{
+    background-image: url(../img/2.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    height: 50%;
+    
+
+}
+.head-text-content{
+    padding-top: 250px;
+    padding-bottom: 100px;
+    font-stretch: ultra-expanded;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 4.6em;
+    color: AntiqueWhite;
+}
+.head-text-content p:hover{
+    font-size: 1.01em;
+    color: #FAF0E6;
+}
+.Qualitätsanspruch{
+    background-image: url(../img/1.jpg);
+    height: 750px; 
+    background-attachment: fixed;  
+    
+}
+
+.text-field{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+        
+        
+}
+.text-field a{
+    padding-top:100px;
+    color: azure;
+    font-size: 1.6em;
+}
+#header-logof{
+    position:fixed;
+    z-index: 100%;
+    width: 100%;
+}
+
+.our-photos {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+    font-size: 2em;
+}
+.our-photos h3 {
+    color: black;
+}
+.our-photos a:hover {
+    font-size: 1.1em;
+    opacity: 0.7;
+    
+}
+.img-back {
+    background-color: #2f4f4f;
+}
+.img-back img{
+     border-radius: 50%;
+}
+.slider {
+    background-color:  white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .topnav a:not(first-child){
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: black;
+    }
+    nav{
+        width: 100%;
+        height: 45px;
+    }
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .text-field a{
+    padding-top:100px;
+    color: azure;
+    font-size: 1.3em;
+}
+}
+
+@media screen and (max-width: 700px){
+    .advantages{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 465px){
+    .text-field a{
+    padding-top:100px;
+    color: azure;
+    font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 250px){
+    .text-field a{
+    font-size: 0.48em;
+    }
+}
+
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+

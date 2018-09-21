@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kupeco</title>
+    <meta name="description" content="pilz und waldfrüchte">
+    <meta name="keywords" content="Kupeco">
+    <link rel="shortcut icon" type="image/x-icon" href= "img/faviconLis16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet"> 
+</head>
+<body>
+    
+    <header id="header-logo">
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="qualit%C3%A4tsanspruch.html">Qualitätsanspruch</a>
+                <a href="unsere_produkte.html">Unsere Produkte</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="#", style="border-bottom: 2px solid #000">Galerie</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+        <div class="slider">
+            <style>
+            .demo {
+  position: relative;
+  padding-top: 50%;
+  overflow: hidden;
+}
+            .demo input { display: none; }
+            .demo label { transition: 1s; }
+            .demo img {
+              position: absolute; 
+              left: 50%;
+              top: 50%;
+              max-width: 100%;
+              max-height: 100%;
+              -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+            }
+            .demo label,
+.demo #vkl1:checked ~ [for="vkl1"],
+.demo #vkl2:checked ~ [for="vkl2"],
+.demo #vkl3:checked ~ [for="vkl3"],
+.demo #vkl4:checked ~ [for="vkl4"],
+.demo #vkl5:checked ~ [for="vkl5"] {
+  position: absolute; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-60%) scale(.7); z-index: 2;
+}
+.demo #vkl1:checked ~ [for="vkl3"],
+.demo #vkl2:checked ~ [for="vkl4"],
+.demo #vkl3:checked ~ [for="vkl5"],
+.demo #vkl4:checked ~ [for="vkl1"],
+.demo #vkl5:checked ~ [for="vkl2"] {
+  transform: translateX(50%) scale(.6); z-index: 2;
+}
+.demo #vkl1:checked ~ [for="vkl4"],
+.demo #vkl2:checked ~ [for="vkl5"],
+.demo #vkl3:checked ~ [for="vkl1"],
+.demo #vkl4:checked ~ [for="vkl2"],
+.demo #vkl5:checked ~ [for="vkl3"],
+.demo #vkl1:checked ~ [for="vkl5"],
+.demo #vkl2:checked ~ [for="vkl1"],
+.demo #vkl3:checked ~ [for="vkl2"],
+.demo #vkl4:checked ~ [for="vkl3"],
+.demo #vkl5:checked ~ [for="vkl4"] {
+  z-index: 1;
+}
+.demo #vkl1:checked ~ [for="vkl2"],
+.demo #vkl2:checked ~ [for="vkl3"],
+.demo #vkl3:checked ~ [for="vkl4"],
+.demo #vkl4:checked ~ [for="vkl5"],
+.demo #vkl5:checked ~ [for="vkl1"] { transform: translateX(0); z-index: 4; visibility: visible;}
+
+            }
+            .demo #vkl1:checked ~ [for="vkl2"],
+            .demo #vkl2:checked ~ [for="vkl3"],
+            .demo #vkl3:checked ~ [for="vkl4"],
+            .demo #vkl4:checked ~ [for="vkl5"],
+            .demo #vkl5:checked ~ [for="vkl1"] {visibility: visible; opacity: 1;}
+            </style>
+
+            <div class="demo">
+            <input type="radio" name="odin" id="vkl1"/>
+            <input type="radio" name="odin" id="vkl2"/>
+            <input type="radio" name="odin" id="vkl3"/>
+            <input type="radio" name="odin" id="vkl4"/>
+            <input type="radio" name="odin" id="vkl5" checked="checked"/>
+
+            <label for="vkl1"><img src="img/produkts/productgalerie1.jpg"/></label>
+            <label for="vkl2"><img src="img/produkts/productgalerie2.jpg"/></label>
+            <label for="vkl3"><img src="img/produkts/productgalerie3.jpg"/></label>
+            <label for="vkl4"><img src="img/produkts/productgalerie4.jpg"/></label>
+            <label for="vkl5"><img src="img/produkts/productgalerie5.jpg"/></label>
+            </div>
+        </div>
+    <footer>
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="qualitätsanspruch.html">Qualitätsanspruch</a>
+                <a href="unsere_produkte.html">Unsere Produkte</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="#", style="color: #A9A9A9">Galerie</a>
+        </nav>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="social">
+            <a href="mailto:ecolesproduct@bk.ru"><img src="img/em.png" alt=""></a>
+        </div>
+        <p>pilz und waldfrüchte. Kupeco</p>
+    </footer>
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
